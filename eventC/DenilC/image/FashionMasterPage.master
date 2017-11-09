@@ -1,0 +1,600 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FashionMasterPage.master.cs" Inherits="DenilC_image_FashionMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../Styles/FashionStylesheet.css" rel="stylesheet" />
+
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="dde, WOW Slider, Photo Slider jQuery, Image Slider HTML" />
+	<meta name="description" content="dde created with WOW Slider, a free wizard program that helps you easily generate beautiful web slideshow" />
+	<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+   
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="body1">
+    <form id="form1" runat="server">
+         <div id ="wrapper ">
+                
+             <div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><img src="data1/images/london_eve.jpg" alt="LONDON_EVE" title="LONDON_EVE" id="wows1_0"/></li>
+<li><img src="data1/images/g3.jpg" alt="g3" title="g3" id="wows1_1"/></li>
+<li><img src="data1/images/dolce_gabbana.jpg" alt="DOLCE_GABBANA" title="DOLCE_GABBANA" id="wows1_2"/></li>
+<li><img src="data1/images/londonmenfashionweek.jpg" alt="LONDON-MEN-FASHION-WEEK" title="LONDON-MEN-FASHION-WEEK" id="wows1_3"/></li>
+<li><img src="data1/images/yigal_azrouel_fashion_show.jpg" alt="Yigal_Azrouel_Fashion_Show" title="Yigal_Azrouel_Fashion_Show" id="wows1_4"/></li>
+<li><img src="data1/images/prabal_gurung_pgnyfw_fall_2014.jpg" alt="Prabal Gurung #PGNYFW FALL 2014" title="Prabal Gurung #PGNYFW FALL 2014" id="wows1_5"/></li>
+<li><img src="data1/images/newyorkmenfashionweek201314.jpg" alt="New-york-men-fashion-week-2013-14" title="New-york-men-fashion-week-2013-14" id="wows1_6"/></li>
+<li><img src="data1/images/cfwss14__kopenhagen_fur_web_res0349.jpg" alt="cfwss14__kopenhagen_fur_web_res-0349" title="cfwss14__kopenhagen_fur_web_res-0349" id="wows1_7"/></li>
+<li><img src="data1/images/armani_fashion.jpg" alt="ARMANI_FASHION" title="ARMANI_FASHION" id="wows1_8"/></li>
+<li><img src="data1/images/marc__jacobs__louis_vuitton.jpg" alt="MARC_ JACOBS _LOUIS VUITTON" title="MARC_ JACOBS _LOUIS VUITTON" id="wows1_9"/></li>
+<li><img src="data1/images/marc_jacobs__louis_vuitton_spring_fall2014.jpg" alt="MARC JACOBS _LOUIS VUITTON_SPRING_FALL-2014" title="MARC JACOBS _LOUIS VUITTON_SPRING_FALL-2014" id="wows1_10"/></li>
+<li><img src="data1/images/zara_fashion_2014.jpg" alt="ZARA_FASHION_2014" title="ZARA_FASHION_2014" id="wows1_11"/></li>
+<li><img src="data1/images/dolcegabbanadgfallwinter2013.jpg" alt="dolcegabbana-dg-fall-winter-2013" title="dolcegabbana-dg-fall-winter-2013" id="wows1_12"/></li>
+<li><img src="data1/images/oda_giri_joe_2014.jpg" alt="ODA_GIRI_JOE_2014" title="ODA_GIRI_JOE_2014" id="wows1_13"/></li>
+<li><img src="data1/images/jennysneapfashionphotography7.jpg" alt="Jenny-Sneap-Fashion-Photography-7" title="Jenny-Sneap-Fashion-Photography-7" id="wows1_14"/></li>
+<li><img src="data1/images/prabal_gurungrunawayfall2013.jpg" alt="PRABAL GURUNG-RUNAWAY-FALL2013" title="PRABAL GURUNG-RUNAWAY-FALL2013" id="wows1_15"/></li>
+<li><img src="data1/images/carlosj2011061507ed.jpg" alt="carlos-j-20110615-07-ed" title="carlos-j-20110615-07-ed" id="wows1_16"/></li>
+<li><img src="data1/images/kids_fashion_photography_by_achim_lippoth_03.jpg" alt="Kids Fashion Photography by Achim Lippoth 03" title="Kids Fashion Photography by Achim Lippoth 03" id="wows1_17"/></li>
+<li><img src="data1/images/nyw.jpg" alt="NYW" title="NYW" id="wows1_18"/></li>
+<li><img src="data1/images/dickymahongkongfashionphotographerinterview10.jpg" alt="dicky-ma-hong-kong-fashion-photographer-interview-10" title="dicky-ma-hong-kong-fashion-photographer-interview-10" id="wows1_19"/></li>
+<li><img src="data1/images/70_1arindom_chowdhury_fashion__photography_066_copy.jpg" alt="70_1arindom_chowdhury_fashion__photography_066_copy" title="70_1arindom_chowdhury_fashion__photography_066_copy" id="wows1_20"/></li>
+<li><img src="data1/images/fashion_fall_2012_paris_4.jpg" alt="fashion fall 2012 Paris 4" title="fashion fall 2012 Paris 4" id="wows1_21"/></li>
+<li><img src="data1/images/versace_2013_fall.jpg" alt="VERSACE_2013_FALL" title="VERSACE_2013_FALL" id="wows1_22"/></li>
+<li><img src="data1/images/fashionweekchanel.165.jpg" alt="fashion-week-chanel.-165" title="fashion-week-chanel.-165" id="wows1_23"/></li>
+<li><img src="data1/images/tomfordmenfashionfallwinter2010.jpg" alt="TOM-FORD-MEN-FASHION-FALL-WINTER-2010" title="TOM-FORD-MEN-FASHION-FALL-WINTER-2010" id="wows1_24"/></li>
+<li><img src="data1/images/tommy_hilfiger_show.jpg" alt="TOMMY_HILFIGER_SHOW" title="TOMMY_HILFIGER_SHOW" id="wows1_25"/></li>
+<li><img src="data1/images/van_heuson.jpg" alt="Van Heuson" title="Van Heuson" id="wows1_26"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="LONDON_EVE"><img src="data1/tooltips/london_eve.jpg" alt="LONDON_EVE"/>1</a>
+<a href="#" title="g3"><img src="data1/tooltips/g3.jpg" alt="g3"/>2</a>
+<a href="#" title="DOLCE_GABBANA"><img src="data1/tooltips/dolce_gabbana.jpg" alt="DOLCE_GABBANA"/>3</a>
+<a href="#" title="LONDON-MEN-FASHION-WEEK"><img src="data1/tooltips/londonmenfashionweek.jpg" alt="LONDON-MEN-FASHION-WEEK"/>4</a>
+<a href="#" title="Yigal_Azrouel_Fashion_Show"><img src="data1/tooltips/yigal_azrouel_fashion_show.jpg" alt="Yigal_Azrouel_Fashion_Show"/>5</a>
+<a href="#" title="Prabal Gurung #PGNYFW FALL 2014"><img src="data1/tooltips/prabal_gurung_pgnyfw_fall_2014.jpg" alt="Prabal Gurung #PGNYFW FALL 2014"/>6</a>
+<a href="#" title="New-york-men-fashion-week-2013-14"><img src="data1/tooltips/newyorkmenfashionweek201314.jpg" alt="New-york-men-fashion-week-2013-14"/>7</a>
+<a href="#" title="cfwss14__kopenhagen_fur_web_res-0349"><img src="data1/tooltips/cfwss14__kopenhagen_fur_web_res0349.jpg" alt="cfwss14__kopenhagen_fur_web_res-0349"/>8</a>
+<a href="#" title="ARMANI_FASHION"><img src="data1/tooltips/armani_fashion.jpg" alt="ARMANI_FASHION"/>9</a>
+<a href="#" title="MARC_ JACOBS _LOUIS VUITTON"><img src="data1/tooltips/marc__jacobs__louis_vuitton.jpg" alt="MARC_ JACOBS _LOUIS VUITTON"/>10</a>
+<a href="#" title="MARC JACOBS _LOUIS VUITTON_SPRING_FALL-2014"><img src="data1/tooltips/marc_jacobs__louis_vuitton_spring_fall2014.jpg" alt="MARC JACOBS _LOUIS VUITTON_SPRING_FALL-2014"/>11</a>
+<a href="#" title="ZARA_FASHION_2014"><img src="data1/tooltips/zara_fashion_2014.jpg" alt="ZARA_FASHION_2014"/>12</a>
+<a href="#" title="dolcegabbana-dg-fall-winter-2013"><img src="data1/tooltips/dolcegabbanadgfallwinter2013.jpg" alt="dolcegabbana-dg-fall-winter-2013"/>13</a>
+<a href="#" title="ODA_GIRI_JOE_2014"><img src="data1/tooltips/oda_giri_joe_2014.jpg" alt="ODA_GIRI_JOE_2014"/>14</a>
+<a href="#" title="Jenny-Sneap-Fashion-Photography-7"><img src="data1/tooltips/jennysneapfashionphotography7.jpg" alt="Jenny-Sneap-Fashion-Photography-7"/>15</a>
+<a href="#" title="PRABAL GURUNG-RUNAWAY-FALL2013"><img src="data1/tooltips/prabal_gurungrunawayfall2013.jpg" alt="PRABAL GURUNG-RUNAWAY-FALL2013"/>16</a>
+<a href="#" title="carlos-j-20110615-07-ed"><img src="data1/tooltips/carlosj2011061507ed.jpg" alt="carlos-j-20110615-07-ed"/>17</a>
+<a href="#" title="Kids Fashion Photography by Achim Lippoth 03"><img src="data1/tooltips/kids_fashion_photography_by_achim_lippoth_03.jpg" alt="Kids Fashion Photography by Achim Lippoth 03"/>18</a>
+<a href="#" title="NYW"><img src="data1/tooltips/nyw.jpg" alt="NYW"/>19</a>
+<a href="#" title="dicky-ma-hong-kong-fashion-photographer-interview-10"><img src="data1/tooltips/dickymahongkongfashionphotographerinterview10.jpg" alt="dicky-ma-hong-kong-fashion-photographer-interview-10"/>20</a>
+<a href="#" title="70_1arindom_chowdhury_fashion__photography_066_copy"><img src="data1/tooltips/70_1arindom_chowdhury_fashion__photography_066_copy.jpg" alt="70_1arindom_chowdhury_fashion__photography_066_copy"/>21</a>
+<a href="#" title="fashion fall 2012 Paris 4"><img src="data1/tooltips/fashion_fall_2012_paris_4.jpg" alt="fashion fall 2012 Paris 4"/>22</a>
+<a href="#" title="VERSACE_2013_FALL"><img src="data1/tooltips/versace_2013_fall.jpg" alt="VERSACE_2013_FALL"/>23</a>
+<a href="#" title="fashion-week-chanel.-165"><img src="data1/tooltips/fashionweekchanel.165.jpg" alt="fashion-week-chanel.-165"/>24</a>
+<a href="#" title="TOM-FORD-MEN-FASHION-FALL-WINTER-2010"><img src="data1/tooltips/tomfordmenfashionfallwinter2010.jpg" alt="TOM-FORD-MEN-FASHION-FALL-WINTER-2010"/>25</a>
+<a href="#" title="TOMMY_HILFIGER_SHOW"><img src="data1/tooltips/tommy_hilfiger_show.jpg" alt="TOMMY_HILFIGER_SHOW"/>26</a>
+<a href="#" title="Van Heuson"><img src="data1/tooltips/van_heuson.jpg" alt="Van Heuson"/>27</a>
+</div></div>
+<audio src="engine1/01armin_van_buuren_presents_gaiastatus_excessu_d_the_official_a_state_of_trance_500_anthem_radio_edit.mp3"></audio>
+<script type="text/javascript" src="engine1/swfobject.js"></script>
+<span class="wsl"><a href="http://wowslider.com">Image Sliders</a> by WOWSlider.com v4.7</span>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+                 <div id="navigation">
+                      
+                    <ul id="nav">
+                        <li><a href="../../image/sound.aspx">Home</a></li>
+                           <li><a href="#">Services</a>
+                              <ul>
+                                    <li><a href="wow/index.html"></a></li>
+                                <li><a href="#">Registration</a></li>
+                                <li><a href="../accomodation.aspx">Accomodation</a></li>
+                                <li><a href="../Venues.aspx">Venues</a></li>
+                                <li><a href="../Conferencemeeting.aspx">Corporate Meetings</a></li>
+
+                                      <li><a href="../awardceremony.aspx">Award Ceremonies</a></li>
+
+                                    <li><a href="../Audiovideoproduct.aspx">Audio Visual Production</a></li>
+                                    <li><a href="wow/index.html"></a></li>
+                            
+                               
+                              </ul>
+                       </li>
+                        <li><a href="#">Events</a>
+                              <ul>
+                                <li><a href="wow/index.html"></a></li>
+                                <li><a href="wow/index.html">Music Festival </a></li>
+                                <li><a href="#">Int Sporting Events</a></li>
+                                <li><a href="#">Concerts</a></li>
+                              </ul>
+                         </li>
+
+                        <li><a href="#">About Us</a>
+                        <ul>
+                                <li><a href="../AboutUs.aspx">Chief Directors</a></li>
+                                <li><a href="../aboutfarade.aspx">About FARADE</a></li>
+
+                        </ul>
+                       
+                        </li>
+
+                      <li><a href="#">Life Style</a>
+                          <ul>
+                                  <li><a href="wow/index.html"></a></li>
+                                <li><a href="FashionDefault.aspx">Fashion Show</a></li>
+                             
+                                <li><a href="../Pastevents.aspx">Past Events</a></li>
+                               <li><a href="../Traverltour.aspx">Travel & Tour</a></li>
+                              </ul>
+                      </li>
+
+                     
+                         <li><a href="../login.aspx">Login</a></li>
+                        <li><a href="../ContactUS.aspx">Contact US</a></li>
+                        
+                    </ul>
+
+                 </div>
+
+            
+             
+             <div id="sidebar">
+
+             
+                 
+             
+                 
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                       <br />
+                       <img src="../../image/rad.gif" class="imgLeft" />
+                       <br />
+                       <br />
+                       <br />
+                       <br />
+                       <br />
+                       <br />
+                       <br />
+                       <br />
+                       <br />
+                       <div align="center" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: helvetica, arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);">
+                           <img alt="Drumstick Dash Turkey" src="http://www.visioneventmanagement.com/media/drumstickdash/Turkey_Sidebar.jpg" style="margin: 0px; padding: 0px;" /></div>
+                       <div style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: helvetica, arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);">
+                           &nbsp;</div>
+                       <div style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: helvetica, arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);">
+                           &nbsp;</div>
+                       <div align="center" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: helvetica, arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);">
+                           <a href="http://www.facebook.com/pages/Drumstick-Dash/141030116041212" rel="" style="margin: 0px; padding: 0px; color: rgb(153, 153, 153); text-decoration: underline;" target="_blank">
+                           <img alt="Drumstick Dash Facebook" src="http://www.visioneventmanagement.com/media/drumstickdash/DD_Facebook.jpg" style="margin: 0px; padding: 0px;" /></a></div>
+                       <div style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: helvetica, arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);">
+                           &nbsp;</div>
+                       <div align="center" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: helvetica, arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);">
+                           <a href="https://twitter.com/drumstickdash" rel="" style="margin: 0px; padding: 0px; color: rgb(153, 153, 153); text-decoration: underline;" target="_blank">
+                           <img alt="Drumstick Dash Twitter" src="http://www.visioneventmanagement.com/media/drumstickdash/DD_Twitter.jpg" style="margin: 0px; padding: 0px;" /></a></div>
+                       <div style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: helvetica, arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);">
+                           &nbsp;</div>
+                       <div style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: helvetica, arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);">
+                           &nbsp;</div>
+                       <a id="wb_78" class="section_anchor" name="wb_78" style="margin: 0px; padding: 0px; color: rgb(153, 153, 153); text-decoration: underline; font-family: helvetica, arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);"></a>
+                       <div style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: helvetica, arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);">
+                           &nbsp;</div>
+                       <h1 align="center" style="margin: 0px; padding: 0px 0px 14px; font-size: 12px; color: rgb(255, 204, 0); font-weight: normal; font-family: helvetica, arial, sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);">SPONSORS</h1>
+                       <div style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: helvetica, arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);">
+                           &nbsp;</div>
+                       <div align="center" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: helvetica, arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);">
+                           <a href="http://www.sendiksmarket.com/home/" style="margin: 0px; padding: 0px; color: rgb(153, 153, 153); text-decoration: underline;">
+                           <img alt="Sendiks" src="http://www.visioneventmanagement.com/media/drumstickdash/Sendiks_1.png" style="margin: 0px; padding: 0px; width: 130px; height: 73px;" /></a><div style="margin: 0px; padding: 0px;">
+                               <div style="margin: 0px; padding: 0px;">
+                                   &nbsp;</div>
+                               <div align="center" style="margin: 0px; padding: 0px;">
+                                   <a href="http://www.feedingamericawi.org/" style="margin: 0px; padding: 0px; color: rgb(153, 153, 153); text-decoration: underline;">
+                                   <img alt="Feed America Eastern Wisconsin" src="http://www.visioneventmanagement.com/media/drumstickdash/FAEW_LOGO_1.png" style="margin: 0px; padding: 0px; width: 90px; height: 70px;" /></a></div>
+                               <div style="margin: 0px; padding: 0px;">
+                                   &nbsp;</div>
+                               <div align="center" style="margin: 0px; padding: 0px;">
+                                   <a href="http://www.performancerunning.com/" style="margin: 0px; padding: 0px; color: rgb(153, 153, 153); text-decoration: underline;">
+                                   <img alt="Performance Running Outfitters" src="http://www.visioneventmanagement.com/media/drumstickdash/PerformanceRunningOutfiters.png" style="margin: 0px; padding: 0px; width: 120px; height: 35px;" /></a></div>
+                           </div>
+                       </div>
+                       <br />
+                       <div id="right-sections" class="" style="color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 248, 248);">
+                           <a class="" href="http://www.capitatravelandevents.co.uk/" style="text-decoration: none; color: rgb(165, 68, 153);" target="_blank">
+                           <div id="right-section">
+                               <div id="rightcontent" style="text-align: center;">
+                                   <br class="Apple-interchange-newline" />
+                                   <img alt="Capita" border="0" height="40" src="http://www.venuesevent.com/images/capita-logo-109px.jpg" width="109" /><div style="font-size: 8pt; margin-top: 15px; font-family: Verdana, Geneva, sans-serif; color: rgb(102, 102, 102);">
+                                       Part of Capita travel and events</div>
+                               </div>
+                           </div>
+                           </a>
+                       </div>
+                       <div class="spacer-w119-h10" style="width: 119px; height: 10px; display: block; float: left; color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 248, 248);">
+                       </div>
+                       <div style="color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 248, 248);">
+                           <a href="http://www.venuesevent.com/news/pr-201211-02.html" style="text-decoration: none; color: rgb(165, 68, 153);" title="Sustainable Events Summit">
+                           <img border="0" height="119" src="http://www.venuesevent.com/images/sustainable_events_summit_119.jpg" width="119" /></a></div>
+                       <div class="spacer-w119-h10" style="width: 119px; height: 10px; display: block; float: left; color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 248, 248);">
+                       </div>
+                       <div style="color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 248, 248);">
+                           <a href="http://www.meetpie.com/modules/eventmodule/mit/mitvote.aspx" style="text-decoration: none; color: rgb(165, 68, 153);" target="_blank" title="M&amp;IT Awards 2014">
+                           <img border="0" height="119" src="http://www.venuesevent.com/images/mit-vote-button.jpg" width="119" /></a></div>
+                       <br />
+
+                       
+                    </asp:ContentPlaceHolder>
+                    
+                    
+                    <br />
+                 
+                 
+                 
+                 
+                 
+                 
+                    </div>
+
+
+
+
+
+             <div id="content_area">
+                  
+                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+
+                         
+
+                         
+
+
+                         <p>
+                             <br />
+                         </p>
+                         <p>
+                         </p>
+                         <p>
+                         </p>
+                         <p>
+                         </p>
+                         <p>
+                         </p>
+                         <p>
+                         </p>
+
+
+
+                         
+
+                         
+
+
+                     </asp:ContentPlaceHolder>
+                  
+                 </div>
+
+             
+      
+               <div id="sidebar1"> 
+                     &nbsp;&nbsp;&nbsp;&nbsp;<div id="content" class="" style="color: rgb(51, 51, 51); font-family: times, 'Times New Roman'; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+                         <section class="content-columns" style="display: block; float: left; width: 984px;">
+                             <div class="right" style="width: 246px; margin: 0px 8px 0px 0px; float: left; display: inline;">
+                                 <div id="calendar" class="" data-url="/generate-calendar/" style="margin-left: 20px; padding: 8px; border: 1px solid rgb(231, 231, 231); margin-bottom: 10px; min-height: 227px;">
+                                     <p class="tit" style="margin: 0px 0px 10px; font-size: 36px; line-height: 36px;">
+                                         Calendar</p>
+                                     <div style="opacity: 1;">
+                                         <div class="controls" style="text-align: center; float: left; width: 208px;">
+                                             <a class="arrow prev" data-month="03" data-year="2014" href="http://www.cameramoda.it/en/#03|2014" style="background-image: url(http://www.cameramoda.it/media/images/arrows.png); display: inline-block; width: 23px; height: 23px; transition: background-color 0.3s ease-in-out; -webkit-transition: background-color 0.3s ease-in-out; -webkit-transform: rotate(180deg); float: left; background-position: -75px -192px; background-repeat: no-repeat no-repeat;"></a><a class="arrow next" data-month="05" data-year="2014" href="http://www.cameramoda.it/en/#05|2014" style="background-image: url(http://www.cameramoda.it/media/images/arrows.png); display: inline-block; width: 23px; height: 23px; transition: background-color 0.3s ease-in-out; -webkit-transition: background-color 0.3s ease-in-out; float: right; background-position: -75px -192px; background-repeat: no-repeat no-repeat;"></a>
+                                             <span style="display: block; height: 23px; line-height: 23px; font-family: 'Open Sans', sans-serif; font-weight: 400; margin-bottom: 7px;">April 2014</span></div>
+                                         <table cellpadding="0" cellspacing="0" style="width: 208px; clear: both; border-collapse: collapse; font-family: 'Open Sans', sans-serif; font-weight: 600;">
+                                             <tr>
+                                                 <th style="text-align: left; font-size: 10px; line-height: 20px;">M</th>
+                                                 <th style="text-align: left; font-size: 10px; line-height: 20px;">T</th>
+                                                 <th style="text-align: left; font-size: 10px; line-height: 20px;">W</th>
+                                                 <th style="text-align: left; font-size: 10px; line-height: 20px;">T</th>
+                                                 <th style="text-align: left; font-size: 10px; line-height: 20px;">F</th>
+                                                 <th style="text-align: left; font-size: 10px; line-height: 20px;">S</th>
+                                                 <th style="text-align: left; font-size: 10px; line-height: 20px;">S</th>
+                                             </tr>
+                                             <tr>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">1&nbsp;</td>
+                                                 <td class=" today" style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">2&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">3&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">4&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">5&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">6&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                 <td class="active " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px; background-color: rgb(204, 204, 204); transition: background-color 0.3s ease-in-out; -webkit-transition: background-color 0.3s ease-in-out;"><a class="tooltipstered" data-hrefs="Milano Moda Design/MILANO MODA DESIGN - 7/13 APRILE 2014:/en/fashion-show/edition/124_MILANO_MODA_DESIGN___7_13_APRILE_2014/calendar/" style="cursor: pointer; color: rgb(255, 255, 255); display: block; height: 25px; line-height: 25px; text-decoration: none;">7</a></td>
+                                                 <td class="active " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px; background-color: rgb(204, 204, 204); transition: background-color 0.3s ease-in-out; -webkit-transition: background-color 0.3s ease-in-out;"><a class="tooltipstered" data-hrefs="Milano Moda Design/MILANO MODA DESIGN - 7/13 APRILE 2014:/en/fashion-show/edition/124_MILANO_MODA_DESIGN___7_13_APRILE_2014/calendar/" style="cursor: pointer; color: rgb(255, 255, 255); display: block; height: 25px; line-height: 25px; text-decoration: none;">8</a></td>
+                                                 <td class="active " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px; background-color: rgb(204, 204, 204); transition: background-color 0.3s ease-in-out; -webkit-transition: background-color 0.3s ease-in-out;"><a class="tooltipstered" data-hrefs="Milano Moda Design/MILANO MODA DESIGN - 7/13 APRILE 2014:/en/fashion-show/edition/124_MILANO_MODA_DESIGN___7_13_APRILE_2014/calendar/" style="cursor: pointer; color: rgb(255, 255, 255); display: block; height: 25px; line-height: 25px; text-decoration: none;">9</a></td>
+                                                 <td class="active " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px; background-color: rgb(204, 204, 204); transition: background-color 0.3s ease-in-out; -webkit-transition: background-color 0.3s ease-in-out;"><a class="tooltipstered" data-hrefs="Milano Moda Design/MILANO MODA DESIGN - 7/13 APRILE 2014:/en/fashion-show/edition/124_MILANO_MODA_DESIGN___7_13_APRILE_2014/calendar/" style="cursor: pointer; color: rgb(255, 255, 255); display: block; height: 25px; line-height: 25px; text-decoration: none;">10</a></td>
+                                                 <td class="active " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px; background-color: rgb(204, 204, 204); transition: background-color 0.3s ease-in-out; -webkit-transition: background-color 0.3s ease-in-out;"><a class="tooltipstered" data-hrefs="Milano Moda Design/MILANO MODA DESIGN - 7/13 APRILE 2014:/en/fashion-show/edition/124_MILANO_MODA_DESIGN___7_13_APRILE_2014/calendar/" style="cursor: pointer; color: rgb(255, 255, 255); display: block; height: 25px; line-height: 25px; text-decoration: none;">11</a></td>
+                                                 <td class="active " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px; background-color: rgb(204, 204, 204); transition: background-color 0.3s ease-in-out; -webkit-transition: background-color 0.3s ease-in-out;"><a class="tooltipstered" data-hrefs="Milano Moda Design/MILANO MODA DESIGN - 7/13 APRILE 2014:/en/fashion-show/edition/124_MILANO_MODA_DESIGN___7_13_APRILE_2014/calendar/" style="cursor: pointer; color: rgb(255, 255, 255); display: block; height: 25px; line-height: 25px; text-decoration: none;">12</a></td>
+                                                 <td class="active " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px; background-color: rgb(204, 204, 204); transition: background-color 0.3s ease-in-out; -webkit-transition: background-color 0.3s ease-in-out;"><a class="tooltipstered" data-hrefs="Milano Moda Design/MILANO MODA DESIGN - 7/13 APRILE 2014:/en/fashion-show/edition/124_MILANO_MODA_DESIGN___7_13_APRILE_2014/calendar/" style="cursor: pointer; color: rgb(255, 255, 255); display: block; height: 25px; line-height: 25px; text-decoration: none;">13</a></td>
+                                             </tr>
+                                             <tr>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">14&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">15&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">16&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">17&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">18&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">19&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">20&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">21&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">22&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">23&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">24&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">25&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">26&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">27&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">28&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">29&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">30&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">&nbsp;</td>
+                                                 <td class=" " style="border: 1px solid rgb(204, 204, 204); text-align: center; height: 25px;">&nbsp;</td>
+                                             </tr>
+                                         </table>
+                                     </div>
+                                 </div>
+                                 <a class="accredits" href="http://www.cameramoda.it/en/servizi/accrediti/buyer/" style="margin-left: 20px; display: block; height: 38px; text-decoration: none; text-align: right; color: rgb(0, 0, 0); text-transform: uppercase; font-size: 22px; font-family: 'Open Sans', sans-serif; font-weight: 600; margin-bottom: 20px;"><span style="line-height: 38px; height: 38px;">ACCREDITATION</span></a><a class="reserved-area" href="http://www.cameramoda.it/en/soci/area-riservata/" style="margin-left: 20px; padding: 11px 0px; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(231, 231, 231); font-family: 'Open Sans', sans-serif; font-weight: 600; text-decoration: none; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(231, 231, 231); margin-bottom: 20px; height: 25px; line-height: 25px; text-transform: uppercase; color: rgb(0, 0, 0); font-size: 16px; display: block;"><span>RESERVED AREA</span></a><p class="tit" style="margin: 0px 0px 10px; font-size: 36px; line-height: 36px;">
+&nbsp;&nbsp;&nbsp; Brands<span class="Apple-converted-space">&nbsp;</span><br />
+&nbsp;&nbsp; &amp; Designers</p>
+                                 <div class="search-box black" style="float: left; position: relative; width: 208px;">
+                                     <button class="submit" style="margin: 0px 0px 0px 1px; font-size: 14px; vertical-align: middle; line-height: normal; -webkit-appearance: button; cursor: pointer; float: right; height: 24px; width: 24px; border: none; background-image: url(http://www.cameramoda.it/media/images/icons.png); background-color: rgb(255, 255, 255); background-position: -6px -6px; background-repeat: no-repeat no-repeat;">
+                                     </button>
+                                     <div class="labels" style="position: absolute; left: 0px; top: 0px; opacity: 1;">
+                                         <label class="required" for="search-input" style="cursor: pointer; color: rgb(255, 255, 255); height: 24px; line-height: 24px; padding: 0px 8px; font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 12px; text-transform: uppercase; opacity: 1;">
+                                         SEARCH...</label></div>
+                                     <input id="search-input" class="txt required" maxlength="32" name="search1" size="20" style="margin: 0px; font-size: 12px; vertical-align: middle; line-height: 24px; border: none; height: 24px; font-family: 'Open Sans', sans-serif; font-weight: 600; padding: 0px 8px; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); min-width: 167px;" type="text" value="" /></div>
+                                 <p class="tit" style="margin: 0px 0px 10px; font-size: 36px; line-height: 36px;">
+                                     Showroom</p>
+                                 <div class="search-box black" style="float: left; position: relative; width: 208px;">
+                                     <button class="submit" style="margin: 0px 0px 0px 1px; font-size: 14px; vertical-align: middle; line-height: normal; -webkit-appearance: button; cursor: pointer; float: right; height: 24px; width: 24px; border: none; background-image: url(http://www.cameramoda.it/media/images/icons.png); background-color: rgb(255, 255, 255); background-position: -6px -6px; background-repeat: no-repeat no-repeat;">
+                                     </button>
+                                     <div class="labels" style="position: absolute; left: 0px; top: 0px;">
+                                         <label class="required" for="search-showroom-input" style="cursor: pointer; color: rgb(255, 255, 255); height: 24px; line-height: 24px; padding: 0px 8px; font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 12px; text-transform: uppercase;">
+                                         SEARCH...</label></div>
+                                     <input id="search-showroom-input" class="txt required" maxlength="32" name="search" style="margin: 0px; font-size: 12px; vertical-align: middle; line-height: 24px; border: none; height: 24px; font-family: 'Open Sans', sans-serif; font-weight: 600; padding: 0px 8px; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); min-width: 167px;" type="text" value="" /></div>
+                                 <div class="instagram" style="margin-left: 20px; margin-bottom: 20px;">
+                                     <p class="tit" style="margin: 0px 0px 10px; font-size: 22px; line-height: 22px; text-align: center;">
+                                         Follow us on Instagram</p>
+                                     <iframe id="I1" allowtransparency="true" frameborder="0" name="I1" scrolling="no" src="http://www.intagme.com/in/?u=Y2FtZXJhbW9kYXxpbnw3MnwzfDJ8ZmZmZmZmfG5vfDN8dW5kZWZpbmVk" style="left: 0px; border: none; overflow: hidden; width: 225px; height: 150px;"></iframe>
+                                 </div>
+                                 <div class="twitter" data-twttr-id="twttr-sandbox-0" style="margin-left: 20px; margin-bottom: 20px;">
+                                 </div>
+                                 <div class="dl-app" style="margin-left: 20px; margin-bottom: 50px;">
+                                     <a class="link-app" href="http://itunes.apple.com/it/app/id534578351" style="display: block; border: 1px solid rgb(231, 231, 231);" target="_blank">
+                                     <img alt="" src="http://www.cameramoda.it/media/images/en/home-app.jpg" style="max-width: 100%; height: auto; vertical-align: middle; border: 0px;" title="" /></a><a class="dl-app-text" href="http://itunes.apple.com/it/app/id534578351" style="width: 226px; text-decoration: none; text-transform: uppercase; font-family: 'Open Sans', sans-serif; font-weight: 600; float: left; clear: left; padding: 20px 0px 0px; height: auto;"><span style="float: left; width: 208px; padding: 0px 10px; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); line-height: 23px; transition: background-color 0.3s ease-in-out; -webkit-transition: background-color 0.3s ease-in-out; background-repeat: initial initial; height: 43px;">DOWNLOAD THE FREE APP</span><br />
+                                     <br />
+                                     <br />
+                                     <br />
+                                     <br />
+                                     <br />
+                                     </a>
+                                 </div>
+                             </div>
+                         </section>
+                     </div>
+                     <br />
+                     <br />
+
+                     <div id="content0" style="margin: 0px; padding: 20px 20px 40px; overflow: hidden; min-height: 300px; color: rgb(34, 34, 34); font-family: Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 19.5px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; height: 578px;">
+                         <div class="sideright" style="margin: -21px 0px 0px; padding: 0px 0px 1px; float: right; width: 225px;">
+                             <div id="news-home" style="margin: 0px 20px 20px 0px; padding: 0px; clear: both; width: 224px; height: auto; border: 1px solid rgb(0, 0, 0); float: left;">
+                                 <div class="news-home-header" style="margin: 0px; padding: 0px; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); height: 42px;">
+                                     <h3 style="margin: 7px 10px; padding: 0px; font-size: 24px; line-height: 1.1em; font-family: 'Avenir LT W01 55 Roman', Arial, Helvetica, sans-serif; font-weight: normal; color: rgb(255, 255, 255); float: left;">News</h3>
+                                     <a href="http://www.londonfashionweek.co.uk/news_list.aspx" style="margin: 17px 10px 0px; padding: 0px; outline: none; color: rgb(255, 255, 255); transition: color; -webkit-transition: color; text-decoration: none; display: block; float: right; font-size: 12px; line-height: 15px; text-align: justify;">View all news</a></div>
+                                 <ul class="listing" style="margin: 0px; padding: 0px; list-style: none; overflow: hidden; border-style: solid; border-color: rgb(230, 230, 230); border-width: 1px 0px;">
+                                     <li class="first-child" style="margin: 0px; padding: 6px 6px 5px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(230, 230, 230); overflow: hidden;">
+                                         <div class="li_content" style="margin: 0px; padding: 0px; overflow: hidden;">
+                                             <h3 style="margin: 0px 0px 0.6em; padding: 0px; font-size: 15px; line-height: 1.1em; font-family: 'Avenir LT W01 55 Roman', Arial, Helvetica, sans-serif; font-weight: normal; color: rgb(0, 0, 0);"><a id="ctl00_PageHolder_ContentHolder_Main_ctl00_ctl01_rptNews_ctl01_hplNews" href="http://www.londonfashionweek.co.uk/news/623/Facts--Figures-AW14" style="margin: 0px; padding: 0px; outline: none; color: rgb(208, 64, 39); transition: color; -webkit-transition: color; text-decoration: none;">Facts &amp; Figures AW14</a></h3>
+                                             <p id="ctl00_PageHolder_ContentHolder_Main_ctl00_ctl01_rptNews_ctl01_P1" style="margin: 0px; padding: 0px;">
+                                                 London Fashion Week &amp; British fashion industry fac...</p>
+                                         </div>
+                                     </li>
+                                     <li style="margin: 0px; padding: 6px 6px 5px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(230, 230, 230); overflow: hidden; background-color: rgb(239, 239, 239);">
+                                         <div class="li_content" style="margin: 0px; padding: 0px; overflow: hidden;">
+                                             <h3 style="margin: 0px 0px 0.6em; padding: 0px; font-size: 15px; line-height: 1.1em; font-family: 'Avenir LT W01 55 Roman', Arial, Helvetica, sans-serif; font-weight: normal; color: rgb(0, 0, 0);"><a id="ctl00_PageHolder_ContentHolder_Main_ctl00_ctl01_rptNews_ctl02_hplNews" href="http://www.londonfashionweek.co.uk/news/622/Whats-On-at-London-Fashion-Week-AW14-" style="margin: 0px; padding: 0px; outline: none; color: rgb(208, 64, 39); transition: none; -webkit-transition: none; text-decoration: underline;">What&#39;s On at London Fashion Week AW14</a></h3>
+                                             <p id="ctl00_PageHolder_ContentHolder_Main_ctl00_ctl01_rptNews_ctl02_P1" style="margin: 0px; padding: 0px;">
+                                                 From live streaming, social media &amp; the line-up of...</p>
+                                         </div>
+                                     </li>
+                                     <li style="margin: 0px; padding: 6px 6px 5px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(230, 230, 230); overflow: hidden;">
+                                         <div class="li_content" style="margin: 0px; padding: 0px; overflow: hidden;">
+                                             <h3 style="margin: 0px 0px 0.6em; padding: 0px; font-size: 15px; line-height: 1.1em; font-family: 'Avenir LT W01 55 Roman', Arial, Helvetica, sans-serif; font-weight: normal; color: rgb(0, 0, 0);"><a id="ctl00_PageHolder_ContentHolder_Main_ctl00_ctl01_rptNews_ctl03_hplNews" href="http://www.londonfashionweek.co.uk/news/621/WeTransfer--British-Fashion-Council-Collaboration-for-LFW" style="margin: 0px; padding: 0px; outline: none; color: rgb(208, 64, 39); transition: color; -webkit-transition: color; text-decoration: none;">WeTransfer &amp; British Fashion Council Collaboration for LFW</a></h3>
+                                             <p id="ctl00_PageHolder_ContentHolder_Main_ctl00_ctl01_rptNews_ctl03_P1" style="margin: 0px; padding: 0px;">
+                                                 WeTransfer will showcase the work of leading illus...</p>
+                                         </div>
+                                     </li>
+                                     <li style="margin: 0px; padding: 6px 6px 5px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(230, 230, 230); overflow: hidden;">
+                                         <div class="li_content" style="margin: 0px; padding: 0px; overflow: hidden;">
+                                             <h3 style="margin: 0px 0px 0.6em; padding: 0px; font-size: 15px; line-height: 1.1em; font-family: 'Avenir LT W01 55 Roman', Arial, Helvetica, sans-serif; font-weight: normal; color: rgb(0, 0, 0);"><a id="ctl00_PageHolder_ContentHolder_Main_ctl00_ctl01_rptNews_ctl04_hplNews" href="http://www.londonfashionweek.co.uk/news/620/Estethica-AW14" style="margin: 0px; padding: 0px; outline: none; color: rgb(208, 64, 39); transition: color; -webkit-transition: color; text-decoration: none;">Estethica AW14</a></h3>
+                                             <p id="ctl00_PageHolder_ContentHolder_Main_ctl00_ctl01_rptNews_ctl04_P1" style="margin: 0px; padding: 0px;">
+                                                 Nine of Britain’s leading sustainable fashion bran...</p>
+                                         </div>
+                                     </li>
+                                     <li style="margin: 0px; padding: 6px 6px 5px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(230, 230, 230); overflow: hidden;">
+                                         <div class="li_content" style="margin: 0px; padding: 0px; overflow: hidden;">
+                                             <h3 style="margin: 0px 0px 0.6em; padding: 0px; font-size: 15px; line-height: 1.1em; font-family: 'Avenir LT W01 55 Roman', Arial, Helvetica, sans-serif; font-weight: normal; color: rgb(0, 0, 0);"><a id="ctl00_PageHolder_ContentHolder_Main_ctl00_ctl01_rptNews_ctl05_hplNews" href="http://www.londonfashionweek.co.uk/news/619/Pop-Up-Shop-Reopen-at-London-Fashion-Week" style="margin: 0px; padding: 0px; outline: none; color: rgb(208, 64, 39); transition: color; -webkit-transition: color; text-decoration: none;">Pop-Up Shop Reopen at London Fashion Week</a></h3>
+                                             <p id="ctl00_PageHolder_ContentHolder_Main_ctl00_ctl01_rptNews_ctl05_P1" style="margin: 0px; padding: 0px;">
+                                                 This February the British Fashion Council will reo...</p>
+                                         </div>
+                                     </li>
+                                     <li class="last-child" style="margin: 0px; padding: 6px 6px 5px; border-bottom-style: none; overflow: hidden;">
+                                         <div class="li_content" style="margin: 0px; padding: 0px; overflow: hidden;">
+                                             <h3 style="margin: 0px 0px 0.6em; padding: 0px; font-size: 15px; line-height: 1.1em; font-family: 'Avenir LT W01 55 Roman', Arial, Helvetica, sans-serif; font-weight: normal; color: rgb(0, 0, 0);"><a id="ctl00_PageHolder_ContentHolder_Main_ctl00_ctl01_rptNews_ctl06_hplNews" href="http://www.londonfashionweek.co.uk/news/616/Out-of-Step-Avant-Garde-Footwear-" style="margin: 0px; padding: 0px; outline: none; color: rgb(208, 64, 39); transition: color; -webkit-transition: color; text-decoration: none;">Out of Step: Avant Garde Footwear</a></h3>
+                                             <p id="ctl00_PageHolder_ContentHolder_Main_ctl00_ctl01_rptNews_ctl06_P1" style="margin: 0px; padding: 0px;">
+                                                 Out of Step is a new exhibition of avant garde foo...</p>
+                                         </div>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="footer" style="border-top: 5px solid rgb(0, 0, 0); margin: 0px 20px; padding: 34px 0px 15px; color: rgb(102, 102, 102); overflow: hidden; font-family: Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 19.5px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; height: 3px;">
+                     </div>
+                  <br />
+                     <ul id="events" style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: helvetica, arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);">
+                         <li style="margin: 0px 0px 3px; padding: 0px 0px 20px; display: block; font-size: 12px; color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(51, 51, 51);">
+                          <a id="wb_52" class="section_anchor" name="wb_52" style="margin: 0px; padding: 0px; color: rgb(153, 153, 153); text-decoration: underline; font-family: helvetica, arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);"></a>
+                     <br />
+
+                          <h3 style="margin: 30px 0px 0px; padding: 0px 0px 33px; font-size: 12px; color: rgb(255, 204, 51); font-weight: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(51, 51, 51); font-family: helvetica, arial, sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);"><a href="https://www.facebook.com/internationalvaganza" rel="" style="margin: 0px; padding: 0px; color: rgb(255, 204, 51); text-decoration: none;" target="_blank">
+                              <img alt="Facebook logo" src="http://www.visioneventmanagement.com/media/img/VEM_Facebook.png" style="margin: 0px 26px; padding: 0px; border-width: 0px; border-style: solid; width: 114px; height: 30px;" /></a></h3>
+                          <h3 style="margin: 30px 0px 0px; padding: 0px 0px 33px; font-size: 12px; color: rgb(255, 204, 51); font-weight: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(51, 51, 51); font-family: helvetica, arial, sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);"><a href="https://twitter.com" rel="" style="margin: 0px; padding: 0px; color: rgb(255, 204, 51); text-decoration: none;" target="_blank">
+                              <img alt="VEM Twitter" src="http://www.visioneventmanagement.com/media/img/VEM_Twitter.png" style="margin: 0px 26px; padding: 0px; border-width: 0px; border-style: solid; width: 112px; height: 36px;" /></a></h3>
+                          <h3 style="margin: 30px 0px 0px; padding: 0px 0px 33px; font-size: 12px; color: rgb(255, 204, 51); font-weight: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(51, 51, 51); font-family: helvetica, arial, sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);"><a href="https://www.linkedin.com" rel="" style="margin: 0px; padding: 0px; color: rgb(255, 204, 51); text-decoration: none;" target="_blank">
+                              <img alt="VEM Linked IN" src="http://www.visioneventmanagement.com/media/img/VEM_LinkedIn.png" style="margin: 0px 26px; padding: 0px; border-width: 0px; border-style: solid; width: 114px; height: 30px;" /></a></h3>
+
+                     <br />
+
+                           </li>
+                  </ul>
+
+                    
+                      
+           </div>
+
+                   
+   
+                
+              
+
+             
+
+
+         
+
+
+          
+
+                
+
+             
+
+          
+
+                         
+
+
+
+                   <div id="content_area1">
+                     
+                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     
+                    
+                    <asp:Label ID="Label2" runat="server" Text="Find Us more on :" Font-Size="17px" CssClass="auto-style2"></asp:Label>
+
+                    <span class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FARADE.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; About US&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nbsp; <span class="auto-style5"><strong>&nbsp;</strong></span></span><span class="auto-style1"><strong>Popular Searches&nbsp;&nbsp; :</strong></span><span class="auto-style2">&nbsp;&nbsp; </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Resources :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <br />
+                    <br />
+                    <br />
+                 
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 
+
+                       <asp:ImageButton ID="ImageButton1" runat="server"  ImageUrl="~/image/fb.jpg"   class="fb"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style5"><em>&nbsp;</em><asp:HyperLink ID="HyperLink1" runat="server" BorderStyle="None" CssClass="auto-style13" ForeColor="White" NavigateUrl="~/image/sound.aspx" style="font-style: italic">Home</asp:HyperLink><em>&nbsp;&nbsp; </em></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="auto-style3">About FAREDE Event&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Event Planning&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    Overview&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                    &nbsp;<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br />
+                    
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+
+                      <asp:ImageButton ID="ImageButton2" runat="server"      class="fb" ImageUrl="~/image/plus.jpg" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style5"><em><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/DenilC/signup.aspx" Font-Underline="False" ForeColor="White">Sign up</asp:HyperLink></em></span>&nbsp; <span class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Media Partners&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Event Affiliate Program&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; References&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><br />
+                    <br />
+                    
+                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+                    
+                    <asp:ImageButton ID="ImageButton3" runat="server"   Class="fb" ImageUrl="~/image/twitter.png" />
+                  
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style5"><em><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/DenilC/login.aspx" Font-Underline="False" ForeColor="White">Login</asp:HyperLink> </em></span>&nbsp;&nbsp;&nbsp; <span class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Management Team&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Attendee Management&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    Reports
+                    <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:ImageButton ID="ImageButton5" runat="server"   Class="fb" ImageUrl="~/image/linkedin.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Event&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    Videos<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style5"><strong><span class="auto-style4">Career at FAREDE :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:ImageButton ID="ImageButton4" runat="server" ImageUrl="~/image/Phone.jpg" CssClass="phoneimage" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; </span></strong><em>Work at FARADE Event <br />
+                    <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Job offers 
+                    <br />
+                    <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; How to apply <br /><br />
+            <div id="darker">
+               
+                    <br />
+                    <br />
+                   <section class="sponsors" style="display: block; float: left; padding-top: 15px; margin-bottom: 15px; color: rgb(51, 51, 51); font-family: times, 'Times New Roman'; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+                        <article class="principal" style="display: block; float: left; margin-right: 85px;">
+                            <h1 style="margin: 0px 0px 10px 20px; font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 12px; color: rgb(153, 153, 153); text-rendering: optimizelegibility; font-size: 12px; padding: 0px;">Main sponsor</h1>
+                            <span class="canon" style="display: inline-block; margin-right: 25px; margin-left: 20px; background-image: url(http://www.cameramoda.it/media/images/sponsors.png); width: 89px; height: 48px; background-position: -105px 0px; background-repeat: no-repeat no-repeat;"></span>
+                        </article>
+                        <article class="official" style="display: block; float: left; margin-right: 85px;">
+                            <h1 style="margin: 0px 0px 10px; font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 12px; color: rgb(153, 153, 153); text-rendering: optimizelegibility; font-size: 12px; padding: 0px;">Official Sponsor</h1>
+                            <span class="dhl" style="display: inline-block; margin-right: 25px; background-image: url(http://www.cameramoda.it/media/images/sponsors.png); width: 69px; height: 48px; background-position: 0px -144px; background-repeat: no-repeat no-repeat;"></span><span class="Apple-converted-space">&nbsp;</span><span class="mercedes" style="display: inline-block; margin-right: 25px; background-image: url(http://www.cameramoda.it/media/images/sponsors.png); width: 76px; height: 48px; background-position: -105px -48px; background-repeat: no-repeat no-repeat;"></span><span class="Apple-converted-space">&nbsp;</span><span class="testanera" style="display: inline-block; margin-right: 25px; background-image: url(http://www.cameramoda.it/media/images/sponsors.png); width: 98px; height: 48px; background-position: 0px -48px; background-repeat: no-repeat no-repeat;"></span></article>
+                        <article class="media" style="display: block; float: left; margin-right: 85px;">
+                            <h1 style="margin: 0px 0px 10px; font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 12px; color: rgb(153, 153, 153); text-rendering: optimizelegibility; font-size: 12px; padding: 0px;">Media Partner</h1>
+                            <span class="class" style="display: inline-block; margin-right: 25px; background-image: url(http://www.cameramoda.it/media/images/sponsors.png); width: 105px; height: 48px; background-position: 0px 0px; background-repeat: no-repeat no-repeat;"></span>
+                        </article>
+                        <article class="partner" style="display: block; float: left; margin-right: 20px;">
+                            <h1 style="margin: 0px 0px 10px; font-family: 'Open Sans', sans-serif; font-weight: 600; line-height: 12px; color: rgb(153, 153, 153); text-rendering: optimizelegibility; font-size: 12px; padding: 0px;">Institutional Partner</h1>
+                            <span class="camera-commercio last" style="display: inline-block; margin-right: 0px; background-image: url(http://www.cameramoda.it/media/images/sponsors.png); width: 75px; height: 48px; background-position: 0px -96px; background-repeat: no-repeat no-repeat;"></span>
+                        </article>
+                    </section>
+                    <br />
+                    <br />
+               
+                    </div>        </em></span></div>
+           <br />
+              <br />
+              <br />
+              <br /> <br /> <br /> <br /> <br /> 
+              
+                
+              
+                <div id="footer" >
+                    
+                     <div id="center">
+                         All rights reserved  
+                     </div>
+
+
+                       <div id="login" >
+                           <asp:LoginStatus ID="LoginStatus1" runat="server"  Forecolor="white" LogoutPageUrl="~/DenilC/login.aspx" />
+                       </div>
+                    
+                   
+                </div>
+         </div>
+    </form>
+</body>
+
+</html>

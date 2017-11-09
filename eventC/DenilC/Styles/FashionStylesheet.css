@@ -1,0 +1,235 @@
+﻿#body1{
+    background-image:url(dope.jpg);
+}
+#wrapper
+{
+       width :1080px;
+       margin :0 auto;  
+       padding :10px;
+       border:5px solid #dedede;
+       background-color:#fff;
+}
+#wowslider-container1
+{
+       height :400px;
+       border:3px solid #E3E3E3;
+       
+ 
+       background-repeat:no-repeat ;
+       background-size:cover ;
+
+}
+#navigation
+{
+     height:60px;
+     border :3px solid #E3E3E3;
+     margin-top:20px;
+     background-image:url(red.jpg);
+     text-shadow :0.1em 0.1em #333;
+     
+}
+
+
+#nav{
+    list-style :georgian;
+    
+}
+
+#nav ul {
+     list-style :none;
+     margin : 0;
+     padding :0;
+     width :300px;
+   
+     
+}
+#nav li{
+    font-size:20px;
+    float:left;
+    position:relative;
+    width:180px;
+    height:50px;
+    top: 0px;
+    left: 0px;
+}
+
+
+#nav li ul {
+      background-image :url(red.jpg);  
+      background-size:auto ;
+      border:2px solid green;
+      padding-left:20px;
+      display:none ;
+      width :4000px;
+
+
+}
+
+#nav li:hover ul{
+     display:block ;
+     position:absolute ;
+     top:20px; 
+     height :auto ;
+     width :200px; 
+     left:initial;
+}
+   
+
+#nav a:link ,#nav a:active ,#nav a:visited{
+    display:block ;
+    color: #fff;
+    text-decoration : none;
+}
+
+
+#nav  li a:hover{
+    color :green ;
+
+}
+#content_area
+{
+    float:left;
+    width:630px;
+    margin:20px 0 20px 0;
+    padding:10px;
+    border:3px solid #E3E3E3;
+    font-style :italic;
+    font-size: 20px;
+    color :#ff0000;
+    height: auto;
+    background-color:white;
+}
+#content_area1
+
+{     
+      padding-top: 20px; 
+     clear:both;
+    width:auto;
+    height:615px;
+    margin-top:20px;
+   background-color :#03417d;
+    text-shadow :0.1em 0.1em #333;
+    
+    color:white;
+   
+    font-size : 15px;
+    font-weight: 700;
+}
+#darker
+{  
+  float:left;
+    width:1334px;
+  height: auto;
+background-color: black ;
+    margin-left: 0px;
+    padding-left:200px;
+}
+
+#sidebar
+{
+   float:left;
+   width:267px;
+    height:auto;
+    margin:20px 27px 20px 0px;
+    border :3px solid #E3E3E3;
+    
+    background-color : #00172e;
+     padding-left:10px;
+    padding-right:10px;
+    color: #CC3300;
+    font-size: 20px;
+   
+}
+
+#sidebar1
+{
+    float:right;
+  width:267px;
+    height:auto;
+    margin:20px 27px 20px 0px;
+    border :3px solid #E3E3E3;
+    padding-left:20px;
+    padding-right:15px;
+    background-color :white;
+
+    
+}
+
+
+
+
+#footer
+{
+    clear:both;
+    width:auto;
+    height:60px ;
+    margin-top:20px;
+    
+    background-image :url(red.jpg);
+    text-shadow :0.1em 0.1em #333;
+    
+    color:white;
+   
+    font-size : 20px;
+   
+}
+
+#center
+{
+    text-align:center ;
+}
+#login
+{
+    padding-left:1200px;
+
+}
+
+
+#Label2
+{    font-size: 17px;
+}
+.fb
+{   
+   height:30px;
+   width:100px;
+}
+.imgLeft{
+     float:left;
+      height: 188px;
+     width: 261px;
+     margin:0px 10px 10px 0;
+     padding-left:1px;
+ }
+ .imgRight{
+     float:right ;
+     width:200px;
+     height :250px;
+     margin:0px 0 10px 0px;
+     padding:10px;
+ }
+ .img
+  {     float : left ;
+      padding-left :20px;
+      font-size : 20px;
+      font-family:'Comic Sans MS' ;
+  }
+ .logo
+ {    padding-top:30px; 
+      
+      width:267px ;
+     height:100px;
+ }
+
+ #phone
+ {
+     background-color:#e8d545;
+     height:150px;
+     width:100px;
+     float:right;
+     
+ }
+ .phoneimage
+ {
+     height:100px;
+     width:100px;
+ }
